@@ -1,21 +1,20 @@
-# FACE MASK DETECTION USING DEEP LEARNING 
+# TEXT DETECTION USING OPENCV
 
 ## A. PROJECT SUMMARY
 
-**Project Title:** Face Mask Detection using Deep Learning
+**Project Title:** Text detection using OpenCV
 
 **Team Members:** 
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
+- [Adhwa Danish Bin Mohamad Noor]
+- [Muhammad Adam Danieal Bin Sluhudin Hamad]
+- [Ahmad Hazim Bin Ahmad Rizal]
+- [Ahmad Nabil Bin Zulkifli]
 
 
 - [ ] **Objectives:**
-- Break out the project goal into more specific objectives
-- [insert]
-- [insert]
-- [insert]
+- [To detect texts depicted in the image of the camera.]
+- [To be able to convert the texts in the image into string.]
+- [To enable users to copy and paste long texts detected in the image.]
 
 
 ##  B. ABSTRACT 
