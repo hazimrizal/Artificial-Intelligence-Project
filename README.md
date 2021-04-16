@@ -5,25 +5,26 @@
 **Project Title:** Text detection using OpenCV
 
 **Team Members:** 
-- [Adhwa Danish Bin Mohamad Noor]
-- [Muhammad Adam Danieal Bin Sluhudin Hamad]
-- [Ahmad Hazim Bin Ahmad Rizal]
-- [Ahmad Nabil Bin Zulkifli]
+- Ahmad Hazim Bin Ahmad Rizal
+- Muhammad Adam Danieal Bin Sluhudin Hamad
+- Adhwa Danish Bin Mohamad Noor
+- Ahmad Nabil Bin Zulkifli
 
 
-- [ ] **Objectives:**
-- [To detect texts depicted in the image of the camera.]
-- [To be able to convert the texts in the image into string.]
-- [To enable users to copy and paste long texts detected in the image.]
-
+**Objectives:**
+- To detect texts depicted in the image of the camera.
+- To be able to convert the texts in the image into string.
+- To enable users to copy and paste long texts detected in the image.
 
 ##  B. ABSTRACT 
 
-In late December 2019, a previous unidentified coronavirus, currently named as the 2019 novel coronavirus, emerged from Wuhan, China, and resulted in a formidable outbreak in many cities in China and expanded globally, including Thailand, Republic of Korea, Japan, United States, Philippines, Viet Nam, and our country (as of 2/6/2020 at least 25 countries). Covid-19 are Person-to-person transmission may occur through droplet or contact transmission and if there is a lack of stringent infection control or if no proper personal protective equipment available, it may jeopardize the first-line healthcare workers.
+This AI is created for the purpose of helping students with their research in their respective subjects. Be that as it may, but there are some materials (in forms of PDF) that
+only has images in them. The texts and pages are all uploaded in images in the PDF which makes it hard for students to cite the materials into their written assignment as a
+supporting answer. With this AI, the images in the PDF that has texts can be detected and converted into string. That way, the texts in the image, which weren't copiable then,
+can now be copied into their written assignment. Problem solved.
 
-The best safety measure that can be taken is enforcing the people to wear a face mask whenever they are outside to slow down the COVID-19 infection rate. Mask wearing significantly reduced the amounts of various airborne viruses coming from infected patients, measured using the breath-capturing "Gesundheit II machine" developed by Dr. Don Milton, a professor of applied environmental health and a senior author of the study published April 3 in the journal Nature Medicine. In short, masks can help prevent the spread of COVID-19 and that the more people wearing masks, the better.
+Blind people rely on other senses apart from their sight senses. Having said that, they can't read texts from books or any other information pieces. However, nowadays we have a text-to-speech voice technology that detects string-type characters and converts it into a voice. It would be as if someone is reading you a book. With the 'Text Detection' AI, all we have to do is capture an image of the book's page and have it convert it into string. The string characters we obtained can be copied into the text-to-speech voice technology.
 
-As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner are going to use AI technology to recognize people whether they are wearing face mask or not in the public or open space.
 
 
 ![Coding](https://miro.medium.com/max/1400/1*fyfSOSKswsmV0n7Wdy6R4Q.jpeg)
