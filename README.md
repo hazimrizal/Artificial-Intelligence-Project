@@ -6,7 +6,7 @@
 
 **Team Members:** 
 - Ahmad Hazim Bin Ahmad Rizal
-- Muhammad Adam Danieal Bin Sluhudin Hamad
+- Mohamad Adam Danieal Bin Sluhudin Hamdan
 - Adhwa Danish Bin Mohamad Noor
 - Ahmad Nabil Bin Zulkifli
 
