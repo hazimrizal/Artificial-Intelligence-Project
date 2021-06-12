@@ -29,7 +29,7 @@ Blind people rely on other senses apart from their sight senses. Having said tha
 
 
 
-![Coding](https://miro.medium.com/max/1400/1*fyfSOSKswsmV0n7Wdy6R4Q.jpeg)
+![AI](https://user-images.githubusercontent.com/80871331/115047295-f727c480-9f0a-11eb-9653-fb2551455435.PNG)
 Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
 
 
