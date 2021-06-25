@@ -107,7 +107,8 @@ The program specializes in detecting characters in images and enable them to be 
 Our simple program also includes a small user interface for the user to insert the image into the program.
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/v=wuXnI7gNvPA)](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/ai%20textrecog.png)
+![Figure 3](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/ai%20textrecog.png)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/v=wuXnI7gNvPA)]()
 
 
 
