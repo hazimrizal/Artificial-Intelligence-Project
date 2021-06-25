@@ -180,19 +180,21 @@ Given these results, we are hopeful that our model will generalize well to image
 
 ## F.  RESULT AND CONCLUSION
 
-Detecting COVID-19 face masks with OpenCV in real-time
+Detecting characters with OpenCV in images that we upload into the system.
 
-You can then launch the mask detector in real-time video streams using the following command:
-- $ python detect_mask_video.py
-- [INFO] loading face detector model...
-- INFO] loading face mask detector model...
-- [INFO] starting video stream...
+You can then launch the text recognition program to detect using the following command:
+- python textrecog.py
+- [INFO] loading text recognition script
+- [INFO] loading image text detection...
+- [INFO] loading output box indicator...
+- [INFO] extracting pytesseract.image_to_boxes(img)...
+- 
 
 [![Figure5](https://img.youtube.com/vi/wYwW7gAYyxw/0.jpg)](https://www.youtube.com/watch?v=wYwW7gAYyxw "Figure5")
 
 Figure 5: Mask detector in real-time video streams
 
-In Figure 5, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well.
+In Figure 5, it is shown that the system is able to detect any characters on an image and convert them into string. The string data can later be manipulated by the user
 
 
 
