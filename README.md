@@ -1,6 +1,4 @@
 # TEXT DETECTION USING OPENCV 
-shen  
-adhwa
 
 ## A. PROJECT SUMMARY
 
