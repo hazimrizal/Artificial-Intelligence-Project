@@ -124,91 +124,40 @@ In the next two sections, we will train our face mask detector.
 
 
 
-## E   TRAINING THE COVID-19 FACE MASK DETECTION
+## E.  RESULT AND CONCLUSION
 
-We are now ready to train our face mask detector using Keras, TensorFlow, and Deep Learning.
+Detecting the text using Text Detection OpenCV
 
-From there, open up a terminal, and execute the following command:
+Text Detection will detect the every part of the word in the input images, it will then display the text contain in the images. USer also will be able
+to copy the display text into the computer
 
-- $ python train_mask_detector.py --dataset dataset
-- [INFO] loading images...
-- [INFO] compiling model...
-- [INFO] training head...
-- Train for 34 steps, validate on 276 samples
-- Epoch 1/20
-- 34/34 [==============================] - 30s 885ms/step - loss: 0.6431 - accuracy: 0.6676 - val_loss: 0.3696 - val_accuracy: 0.8242
-- Epoch 2/20
-- 34/34 [==============================] - 29s 853ms/step - loss: 0.3507 - accuracy: 0.8567 - val_loss: 0.1964 - val_accuracy: 0.9375
-- Epoch 3/20
-- 34/34 [==============================] - 27s 800ms/step - loss: 0.2792 - accuracy: 0.8820 - val_loss: 0.1383 - val_accuracy: 0.9531
-- Epoch 4/20
-- 34/34 [==============================] - 28s 814ms/step - loss: 0.2196 - accuracy: 0.9148 - val_loss: 0.1306 - val_accuracy: 0.9492
-- Epoch 5/20
-- 34/34 [==============================] - 27s 792ms/step - loss: 0.2006 - accuracy: 0.9213 - val_loss: 0.0863 - val_accuracy: 0.9688
-- ...
-- Epoch 16/20
-- 34/34 [==============================] - 27s 801ms/step - loss: 0.0767 - accuracy: 0.9766 - val_loss: 0.0291 - val_accuracy: 0.9922
-- Epoch 17/20
-- 34/34 [==============================] - 27s 795ms/step - loss: 0.1042 - accuracy: 0.9616 - val_loss: 0.0243 - val_accuracy: 1.0000
-- Epoch 18/20
-- 34/34 [==============================] - 27s 796ms/step - loss: 0.0804 - accuracy: 0.9672 - val_loss: 0.0244 - val_accuracy: 0.9961
-- Epoch 19/20
-- 34/34 [==============================] - 27s 793ms/step - loss: 0.0836 - accuracy: 0.9710 - val_loss: 0.0440 - val_accuracy: 0.9883
-- Epoch 20/20
-- 34/34 [==============================] - 28s 838ms/step - loss: 0.0717 - accuracy: 0.9710 - val_loss: 0.0270 - val_accuracy: 0.9922
-- [INFO] evaluating network...
+![Figure 4](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sampletest.png)
 
-|      |    precision    | recall| f1-score | support |
-|------|-----------------|-------|----------|---------|
-|with_mask|0.99|1.00|0.99|138|
-|without_mask|1.00|0.99|0.99|138|
-|accuracy| | |0.99|276|
-|macro avg|0.99|0.99|0.99|276|
-|weighted avg|0.99|0.99|0.99|276|
+In Figure 4 : detecting the input images, as we can see that it detects correctly and precise as long as the word is not crooked.
+
+![Figure 5](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sample.png)
+
+In Figure 5 : The figure 5 shows the display of the text able to detect in the selected images.
+
+As for conlcusion, the text detection is able to correctly detect the word in that selected images as long as the input text in the image is not crooked. We can say 
+that the text detection system is 80% accurate to detect the text in the input images.
 
 
-![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
+## F.   PROJECT PRESENTATION 
 
-Figure 4: Figure 10: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
+In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
 
-As you can see, we are obtaining ~99% accuracy on our test set.
+To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
 
-Looking at Figure 4, we can see there are little signs of overfitting, with the validation loss lower than the training loss. 
+We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
 
-Given these results, we are hopeful that our model will generalize well to images outside our training and testing set.
+We then took this face mask classifier and applied it to both images and real-time video streams by:
 
+- Detecting faces in images/video
+- Extracting each individual face
+- Applying our face mask classifier
 
-## F.  RESULT AND CONCLUSION
-
-Detecting characters with OpenCV in images that we upload into the system.
-
-You can then launch the text recognition program to detect using the following command:
-- python textrecog.py
-- [INFO] loading text recognition script
-- [INFO] loading image text detection...
-- [INFO] loading output box indicator...
-- [INFO] extracting pytesseract.image_to_boxes(img)...
-- 
-
-[![Figure5](https://img.youtube.com/vi/wYwW7gAYyxw/0.jpg)](https://www.youtube.com/watch?v=wYwW7gAYyxw "Figure5")
-
-Figure 5: Mask detector in real-time video streams
-
-In Figure 5, it is shown that the system is able to detect any characters on an image and convert them into string. The string data can later be manipulated by the user
-
-
-
-## G.   PROJECT PRESENTATION 
-
-In this project, we learned how to create a Text Recognition AI program using OpenCV.
-
-We also used Tesseract optical character recognition(OCR) to detect any characters in the image.
-
-We then took this face mask classifier and applied it to images that has quotes or sentences that be it from a pdf file or any inspirational quotes from the internet.
-
-The program specializes in detecting characters in images and enable them to be copied and pasted since the sentences inside the image has been converted into string and can, therefore be manipulated.
-
-Our simple program also includes a small user interface for the user to insert the image into the program.
+Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
 [![demo](https://img.youtube.com/vi/-p7HGwOWxtg/0.jpg)](https://www.youtube.com/watch?v=-p7HGwOWxtg "demo")
 
