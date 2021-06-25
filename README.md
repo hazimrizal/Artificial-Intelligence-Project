@@ -38,20 +38,22 @@ This method returns an image that is loaded from the specified file.From our pto
 
 ![Code1](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/code1.png)
 
+![Code2](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/code2.png)
+
 #2. pytesseract.image_to_string(image)
 this method is used to convert image into string. To store or transfer an Image to some we need to convert it into a string such that the string should portray the image which we give as input.
 
-//insert image
+![Figure 2](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/pytess.png)
 
 #3. cv2.imshow()
 method is used to display an image in a window. The window automatically fits to the image size. In our project we have created a GUI to be interacted using tkinter. therefore we used this method to display the image in a window so that it shows the program is detecting the alphabets in the uploaded image.
 
-//insert image
+![Figure 3](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/imshow.png)
 
 #4 cv2.rectangle()
 method is used to draw a rectangle on any image. In our peoject we already used cv2.imshow() to display the uploaded image, and to further show that the program is identifying alphabets that are currently in the image we used cv2.rectangle so that the program can use it to highlight the alphabets.
 
-//upload image
+![Figure 4](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/rect.png)
 
 #5. cv2.cvtColor() 
 method is used to convert an image from one color space to another.in our project we use this function to help the program to identify the color of the image since this library is designed to solve computer vision problems.
@@ -84,13 +86,13 @@ Detecting the text using Text Detection OpenCV
 Text Detection will detect the every part of the word in the input images, it will then display the text contain in the images. USer also will be able
 to copy the display text into the computer
 
-![Figure 2](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sampletest.png)
+![Figure 5](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sampletest.png)
 
-In Figure 2 : detecting the input images, as we can see that it detects correctly and precise as long as the word is not crooked.
+In Figure 5 : detecting the input images, as we can see that it detects correctly and precise as long as the word is not crooked.
 
-![Figure 3](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sample.png)
+![Figure 6](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sample.png)
 
-In Figure 3 : The figure 5 shows the display of the text able to detect in the selected images.
+In Figure 6 : The figure 5 shows the display of the text able to detect in the selected images.
 
 As for conlcusion, the text detection is able to correctly detect the word in that selected images as long as the input text in the image is not crooked. We can say 
 that the text detection system is 80% accurate to detect the text in the input images.
@@ -106,10 +108,7 @@ The program specializes in detecting characters in images and enable them to be 
 
 Our simple program also includes a small user interface for the user to insert the image into the program.
 
-
-![Figure 4](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/ai%20textrecog.png)
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=wuXnI7gNvPA)
-
+[![demo](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/ai%20textrecog.png)](https://www.youtube.com/watch?v=wuXnI7gNvPA "demo")
 
 
 
