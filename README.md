@@ -60,8 +60,7 @@ method is used to convert an image from one color space to another.in our projec
 ## D.   PROJECT STRUCTURE
 
 The following directory is our structure of our project:
-- $ tree --dirsfirst --filelimit 10
-- .
+
 - ├── dataset
 - ├── examples
 - │   ├── example_01.png
