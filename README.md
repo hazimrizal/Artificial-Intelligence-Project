@@ -111,4 +111,16 @@ Our simple program also includes a small user interface for the user to insert t
 [![demo](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/ai%20textrecog.png)](https://www.youtube.com/watch?v=wuXnI7gNvPA "demo")
 
 
+## G.   INSTRUCTIONS
 
+Below are the instructions to run the textrecog.py
+
+1. Download all 3 parts of Tesseract_OCR
+2. Extract all 3 into the same folder
+3. Transfer the folder into the same folder as the textrecog.py
+4. open any IDE (for example: Pycharm Community, Visual Code)
+5. Open Project...
+6. Browse for the folder that has the textrecog.py and the combined Tesseract_OCR folder
+7. Run the python script textrecog.py
+
+Hope you can run it :)
