@@ -1,4 +1,4 @@
-# TEXT DETECTION USING OPENCV 
+# TEXT RECOGNITION USING OPENCV 
 
 ## A. PROJECT SUMMARY
 
@@ -63,35 +63,19 @@ The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
 - .
 - ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
 - ├── examples
 - │   ├── example_01.png
-- │   ├── example_02.png
-- │   └── example_03.png
-- ├── face_detector
-- │   ├── deploy.prototxt
-- │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
-- ├── plot.png
-- └── train_mask_detector.py
-- 5 directories, 10 files
+- │   └── example_02.png
+- ├── Text_detector
+- │   ├── pytesseract.image_to_string(img)
+- │   └── pytesseract.image_to_boxes(img)
+- ├── detect_character_image.py
+- ├── Character_detector.model
 
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
+The dataset/ directory contains the data described in the “Text Recognition ” section.
 
-Three image examples/ are provided so that you can test the static image face mask detector.
-
-We’ll be reviewing three Python scripts in this tutorial:
-
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
-
+The two image examples/ are provided so that you can test the image that to be convetred to string to allow you to copy those word from an image..
 
 
 ## E.  RESULT AND CONCLUSION
