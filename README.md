@@ -84,13 +84,13 @@ Detecting the text using Text Detection OpenCV
 Text Detection will detect the every part of the word in the input images, it will then display the text contain in the images. USer also will be able
 to copy the display text into the computer
 
-![Figure 4](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sampletest.png)
+![Figure 2](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sampletest.png)
 
-In Figure 4 : detecting the input images, as we can see that it detects correctly and precise as long as the word is not crooked.
+In Figure 2 : detecting the input images, as we can see that it detects correctly and precise as long as the word is not crooked.
 
-![Figure 5](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sample.png)
+![Figure 3](https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/sample.png)
 
-In Figure 5 : The figure 5 shows the display of the text able to detect in the selected images.
+In Figure 3 : The figure 5 shows the display of the text able to detect in the selected images.
 
 As for conlcusion, the text detection is able to correctly detect the word in that selected images as long as the input text in the image is not crooked. We can say 
 that the text detection system is 80% accurate to detect the text in the input images.
