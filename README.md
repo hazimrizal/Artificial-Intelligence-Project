@@ -198,19 +198,15 @@ In Figure 5, you can see that our face mask detector is capable of running in re
 
 ## G.   PROJECT PRESENTATION 
 
-In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
+In this project, we learned how to create a Text Recognition AI program using OpenCV
 
-To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
+We also used Tesseract optical character recognition(OCR) to detect any characters in the image.
 
-We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
+We then took this face mask classifier and applied it to images that has quotes or sentences that be it from a pdf file or any inspirational quotes from the internet
 
-We then took this face mask classifier and applied it to both images and real-time video streams by:
+The program specializes in detecting characters in images and enable them to be copied and pasted since the sentences inside the image has been converted into string and can, therefore be manipulated 
 
-- Detecting faces in images/video
-- Extracting each individual face
-- Applying our face mask classifier
-
-Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
+Our simple program also includes a small user interface for the user to insert the image into the program.
 
 [![demo](https://img.youtube.com/vi/-p7HGwOWxtg/0.jpg)](https://www.youtube.com/watch?v=-p7HGwOWxtg "demo")
 
