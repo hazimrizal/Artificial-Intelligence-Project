@@ -31,60 +31,30 @@ Blind people rely on other senses apart from their sight senses. Having said tha
 Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
 
 
-## C.  DATASET
+## C.  IMPLEMENTATION
 
-In this project, we’ll discuss our two-phase COVID-19 face mask detector, detailing how our computer vision/deep learning pipeline will be implemented.
+#1. cv2.imread
+This method returns an image that is loaded from the specified file.From our ptoject we need to upload an image file that contains words so the program could detect it.
 
-From there, we’ll review the dataset we’ll be using to train our custom face mask detector.
+//insert image for code
 
-I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
+#2. pytesseract.image_to_string(image)
+this method is used to convert image into string. To store or transfer an Image to some we need to convert it into a string such that the string should portray the image which we give as input.
 
-We’ll use this Python script to train a face mask detector and review the results.
+//insert image
 
-Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
+#3. cv2.imshow()
+method is used to display an image in a window. The window automatically fits to the image size. In our project we have created a GUI to be interacted using tkinter. therefore we used this method to display the image in a window so that it shows the program is detecting the alphabets in the uploaded image.
 
-- Detect COVID-19 face masks in images
-- Detect face masks in real-time video streams
+//insert image
 
-We’ll wrap up the post by looking at the results of applying our face mask detector.
+#4 cv2.rectangle()
+method is used to draw a rectangle on any image. In our peoject we already used cv2.imshow() to display the uploaded image, and to further show that the program is identifying alphabets that are currently in the image we used cv2.rectangle so that the program can use it to highlight the alphabets.
 
+//upload image
 
-There is two-phase COVID-19 face mask detector as shown in Figure 2:
-
-![Figure 2](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_phases.png)
-Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
-
-In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
-
-- Training: Here we’ll focus on loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk
-
-- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
-
-We’ll review each of these phases and associated subsets in detail in the remainder of this tutorial, but in the meantime, let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
-
-
-Our COVID-19 face mask detection dataset as shown in Figure 3:
-
-![Figure 3](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg)
-
-Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
-
-The dataset we’ll be using here today was created by PyImageSearch reader Prajna Bhandary.
-
-This dataset consists of 1,376 images belonging to two classes:
-
-- with_mask: 690 images
-- without_mask: 686 images
-
-Our goal is to train a custom deep learning model to detect whether a person is or is not wearing a mask.
-
-How was our face mask dataset created?
-Prajna, like me, has been feeling down and depressed about the state of the world — thousands of people are dying each day, and for many of us, there is very little (if anything) we can do.
-
-To help keep her spirits up, Prajna decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
-
-- Best case scenario — she could use her project to help others
-- Worst case scenario — it gave her a much needed mental escape
+#5. cv2.cvtColor() 
+method is used to convert an image from one color space to another.in our project we use this function to help the program to identify the color of the image since this library is designed to solve computer vision problems.
 
 
 ## D.   PROJECT STRUCTURE
