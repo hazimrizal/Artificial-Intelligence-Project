@@ -198,13 +198,13 @@ In Figure 5, you can see that our face mask detector is capable of running in re
 
 ## G.   PROJECT PRESENTATION 
 
-In this project, we learned how to create a Text Recognition AI program using OpenCV
+In this project, we learned how to create a Text Recognition AI program using OpenCV.
 
 We also used Tesseract optical character recognition(OCR) to detect any characters in the image.
 
-We then took this face mask classifier and applied it to images that has quotes or sentences that be it from a pdf file or any inspirational quotes from the internet
+We then took this face mask classifier and applied it to images that has quotes or sentences that be it from a pdf file or any inspirational quotes from the internet.
 
-The program specializes in detecting characters in images and enable them to be copied and pasted since the sentences inside the image has been converted into string and can, therefore be manipulated 
+The program specializes in detecting characters in images and enable them to be copied and pasted since the sentences inside the image has been converted into string and can, therefore be manipulated.
 
 Our simple program also includes a small user interface for the user to insert the image into the program.
 
