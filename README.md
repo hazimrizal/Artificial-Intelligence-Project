@@ -37,7 +37,7 @@ Figure 1 shows the AI system of Text detecting that change image text to String.
 This method returns an image that is loaded from the specified file.From our ptoject we need to upload an image file that contains words so the program could detect it.
 
 CODE 1 : 
-(https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/code1.png)
+!(https://github.com/hazimrizal/Artificial-Intelligence-Project/blob/main/images/code1.png)
 
 #2. pytesseract.image_to_string(image)
 this method is used to convert image into string. To store or transfer an Image to some we need to convert it into a string such that the string should portray the image which we give as input.
