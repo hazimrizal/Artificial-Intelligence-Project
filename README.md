@@ -28,7 +28,7 @@ Blind people rely on other senses apart from their sight senses. Having said tha
 
 
 ![AI](https://user-images.githubusercontent.com/80871331/115047295-f727c480-9f0a-11eb-9653-fb2551455435.PNG)
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+Figure 1 shows the AI system of Text detecting that change image text to String.
 
 
 ## C.  IMPLEMENTATION
